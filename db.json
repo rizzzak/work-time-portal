@@ -1,0 +1,105 @@
+{
+  "projects": [
+    {
+      "name": "Project#1",
+      "code": 1,
+      "isActive": true
+    },
+    {
+      "name": "Project#2",
+      "code": 2,
+      "isActive": false
+    },
+    {
+      "name": "Project#3",
+      "code": 3,
+      "isActive": true
+    },
+    {
+      "name": "Project#4",
+      "code": 4,
+      "isActive": true
+    },
+    {
+      "name": "Project#5",
+      "code": 5,
+      "isActive": true
+    },
+    {
+      "name": "Project#6",
+      "code": 6,
+      "isActive": true
+    }
+  ],
+    "tasks": [
+    {
+      "name": "Project#2 Task#1",
+      "assignedTo": 2,
+      "isActive": true
+    },
+    {
+      "name": "Project#6 Task#1",
+      "assignedTo": 6,
+      "isActive": false
+    },
+    {
+      "name": "Project#6 Task#2",
+      "assignedTo": 6,
+      "isActive": true
+    },
+    {
+      "name": "Project#4 Task#1",
+      "assignedTo": 4,
+      "isActive": true
+    },
+    {
+      "name": "Project#3 Task#1",
+      "assignedTo": 3,
+      "isActive": false
+    }
+  ],
+  "provodki": [
+    {
+      "date": "2022-01-03",
+      "hours": 13,
+      "description": "provel horosho",
+      "task": "Project#2 Task#1"
+    },
+    {
+      "date": "2022-01-04",
+      "hours": 8,
+      "description": "provel horosho",
+      "task": "Project#6 Task#2"
+    },
+    {
+      "date": "2022-01-04",
+      "hours": 10,
+      "description": "provel horosho",
+      "task": "Project#6 Task#1"
+    },
+    {
+      "date": "2022-01-05",
+      "hours": 11,
+      "description": "provel horosho",
+      "task": "Project#2 Task#1"
+    },
+    {
+      "date": "2022-05-23",
+      "hours": 11,
+      "description": "provel horosho",
+      "task": "Project#2 Task#1"
+    },
+    {
+      "date": "2022-05-22",
+      "hours": 8,
+      "description": "provel horosho",
+      "task": "Project#2 Task#1"
+    },
+    {
+      "date": "2022-05-21",
+      "hours": 5,
+      "description": "provel horosho",
+      "task": "Project#2 Task#1"
+    }
+  ]
+}
